@@ -79,7 +79,8 @@ with open(csvpath, newline='') as csvfile:
             last_name.append(name[1])
         if row[2] != "DOB":
             dob = row[2].split("-")
-            year = dob.pop()
+            year = dob[0]
+            del dob[0]
             dob.append(year)
             new_dob = "/".join(dob)
             dob_new.append(new_dob)
