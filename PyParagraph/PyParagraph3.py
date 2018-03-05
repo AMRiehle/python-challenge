@@ -30,3 +30,6 @@ sentence_count = len(sentences)
 avg_sentence_length = sentence_length_sum / sentence_count
 
 print(word_count)
+print(avg_word_length)
+print(sentence_count)
+print(avg_sentence_length)
