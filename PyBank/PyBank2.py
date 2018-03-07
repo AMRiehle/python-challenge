@@ -38,7 +38,7 @@ for month in months:
     if month in monthly_difference:
         total_revenue_change = total_revenue_change + int(monthly_difference[month])
 
-average_revenue_change = int(total_revenue_change / len(monthly_difference))
+average_revenue_change = int(round(total_revenue_change / len(monthly_difference)))
         
 import operator    
 max_key = max(monthly_difference.items(), key=operator.itemgetter(1))[0]
