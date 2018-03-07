@@ -9,7 +9,7 @@ The goal of this challenge was to take a dataset consisting of "Date" and "Reven
 
 * The total number of months included in the dataset
 
-* The total amount of revenue gained over the entire period
+* The total amount of revenue generated over the entire period
 
 * The average change in revenue between months over the entire period
 
@@ -62,7 +62,7 @@ The goal of this challenge was to assess a paragraph for the following:
 
 * Approximate sentence count
 
-* Approximate letter count (per word)
+* Average letter count (per word)
 
 * Average sentence length (in words)
 
